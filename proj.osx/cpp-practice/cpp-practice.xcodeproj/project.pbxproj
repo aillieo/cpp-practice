@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F917EC11F36C6C900B7EC2F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F917EC01F36C6C900B7EC2F /* main.cpp */; };
+		2F17932A1F59A1140084EC5C /* MapAndObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F1793281F59A1140084EC5C /* MapAndObjects.cpp */; };
+		2FE8A3D31F4C640B0084056C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8A3D21F4C640B0084056C /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2F1793281F59A1140084EC5C /* MapAndObjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapAndObjects.cpp; sourceTree = "<group>"; };
+		2F1793291F59A1140084EC5C /* MapAndObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAndObjects.h; sourceTree = "<group>"; };
 		2F917EB61F36C68300B7EC2F /* cpp-practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-practice"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F917EC01F36C6C900B7EC2F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../../cpp-practice/main.cpp"; sourceTree = "<group>"; };
+		2FE8A3D21F4C640B0084056C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F1793271F59A0D70084EC5C /* MapAndObjects */ = {
+			isa = PBXGroup;
+			children = (
+				2F1793281F59A1140084EC5C /* MapAndObjects.cpp */,
+				2F1793291F59A1140084EC5C /* MapAndObjects.h */,
+			);
+			path = MapAndObjects;
+			sourceTree = "<group>";
+		};
 		2F917EAD1F36C68200B7EC2F = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +69,11 @@
 		2F917EB81F36C68300B7EC2F /* cpp-practice */ = {
 			isa = PBXGroup;
 			children = (
-				2F917EC01F36C6C900B7EC2F /* main.cpp */,
+				2FE8A3D21F4C640B0084056C /* main.cpp */,
+				2F1793271F59A0D70084EC5C /* MapAndObjects */,
 			);
-			path = "cpp-practice";
+			name = "cpp-practice";
+			path = "../../cpp-practice";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +134,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F917EC11F36C6C900B7EC2F /* main.cpp in Sources */,
+				2FE8A3D31F4C640B0084056C /* main.cpp in Sources */,
+				2F17932A1F59A1140084EC5C /* MapAndObjects.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +264,7 @@
 				2F917EBF1F36C68300B7EC2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

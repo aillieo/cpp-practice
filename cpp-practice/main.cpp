@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
+#include "MapAndObjects.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    MapAndObjects::test();
+    
     return 0;
 }
+
