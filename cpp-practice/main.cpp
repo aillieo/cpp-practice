@@ -8,10 +8,12 @@
 
 #include <iostream>
 #include "MapAndObjects.h"
+#include "FunctionTimer.h"
 
 int main(int argc, const char * argv[]) {
     
-    MapAndObjects::test();
+    //MapAndObjects::test();
+    FunctionTimer::test();
     
     return 0;
 }
