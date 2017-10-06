@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2F17932A1F59A1140084EC5C /* MapAndObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F1793281F59A1140084EC5C /* MapAndObjects.cpp */; };
 		2F78CB951F5AF6DC0055FD1A /* FunctionTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F78CB931F5AF6DC0055FD1A /* FunctionTimer.cpp */; };
+		2F9D625C1F877FDD00194AEE /* FunctionObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D625A1F877FDD00194AEE /* FunctionObjects.cpp */; };
 		2FE8A3D31F4C640B0084056C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8A3D21F4C640B0084056C /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 		2F78CB931F5AF6DC0055FD1A /* FunctionTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionTimer.cpp; sourceTree = "<group>"; };
 		2F78CB941F5AF6DC0055FD1A /* FunctionTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionTimer.h; sourceTree = "<group>"; };
 		2F917EB61F36C68300B7EC2F /* cpp-practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-practice"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F9D625A1F877FDD00194AEE /* FunctionObjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionObjects.cpp; sourceTree = "<group>"; };
+		2F9D625B1F877FDD00194AEE /* FunctionObjects.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FunctionObjects.hpp; sourceTree = "<group>"; };
 		2FE8A3D21F4C640B0084056C /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,12 +84,22 @@
 		2F917EB81F36C68300B7EC2F /* cpp-practice */ = {
 			isa = PBXGroup;
 			children = (
+				2F9D62591F877F7E00194AEE /* FunctionObjects */,
 				2F1793271F59A0D70084EC5C /* MapAndObjects */,
 				2F78CB921F5AF6B70055FD1A /* FunctionTimer */,
 				2FE8A3D21F4C640B0084056C /* main.cpp */,
 			);
 			name = "cpp-practice";
 			path = "../../cpp-practice";
+			sourceTree = "<group>";
+		};
+		2F9D62591F877F7E00194AEE /* FunctionObjects */ = {
+			isa = PBXGroup;
+			children = (
+				2F9D625A1F877FDD00194AEE /* FunctionObjects.cpp */,
+				2F9D625B1F877FDD00194AEE /* FunctionObjects.hpp */,
+			);
+			path = FunctionObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F9D625C1F877FDD00194AEE /* FunctionObjects.cpp in Sources */,
 				2F78CB951F5AF6DC0055FD1A /* FunctionTimer.cpp in Sources */,
 				2FE8A3D31F4C640B0084056C /* main.cpp in Sources */,
 				2F17932A1F59A1140084EC5C /* MapAndObjects.cpp in Sources */,
