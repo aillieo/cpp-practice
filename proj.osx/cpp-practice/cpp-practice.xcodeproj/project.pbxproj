@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F17932A1F59A1140084EC5C /* MapAndObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F1793281F59A1140084EC5C /* MapAndObjects.cpp */; };
+		2F2354191F90F57600FFB659 /* BinarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F2354171F90F56A00FFB659 /* BinarySearch.cpp */; };
 		2F78CB951F5AF6DC0055FD1A /* FunctionTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F78CB931F5AF6DC0055FD1A /* FunctionTimer.cpp */; };
 		2F9D625C1F877FDD00194AEE /* FunctionObjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F9D625A1F877FDD00194AEE /* FunctionObjects.cpp */; };
 		2FE8A3D31F4C640B0084056C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2FE8A3D21F4C640B0084056C /* main.cpp */; };
@@ -28,6 +29,8 @@
 /* Begin PBXFileReference section */
 		2F1793281F59A1140084EC5C /* MapAndObjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapAndObjects.cpp; sourceTree = "<group>"; };
 		2F1793291F59A1140084EC5C /* MapAndObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAndObjects.h; sourceTree = "<group>"; };
+		2F2354171F90F56A00FFB659 /* BinarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearch.cpp; sourceTree = "<group>"; };
+		2F2354181F90F56A00FFB659 /* BinarySearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
 		2F78CB931F5AF6DC0055FD1A /* FunctionTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionTimer.cpp; sourceTree = "<group>"; };
 		2F78CB941F5AF6DC0055FD1A /* FunctionTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionTimer.h; sourceTree = "<group>"; };
 		2F917EB61F36C68300B7EC2F /* cpp-practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-practice"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +57,15 @@
 				2F1793291F59A1140084EC5C /* MapAndObjects.h */,
 			);
 			path = MapAndObjects;
+			sourceTree = "<group>";
+		};
+		2F2354161F90F56A00FFB659 /* BinarySearch */ = {
+			isa = PBXGroup;
+			children = (
+				2F2354171F90F56A00FFB659 /* BinarySearch.cpp */,
+				2F2354181F90F56A00FFB659 /* BinarySearch.h */,
+			);
+			path = BinarySearch;
 			sourceTree = "<group>";
 		};
 		2F78CB921F5AF6B70055FD1A /* FunctionTimer */ = {
@@ -84,6 +96,7 @@
 		2F917EB81F36C68300B7EC2F /* cpp-practice */ = {
 			isa = PBXGroup;
 			children = (
+				2F2354161F90F56A00FFB659 /* BinarySearch */,
 				2F9D62591F877F7E00194AEE /* FunctionObjects */,
 				2F1793271F59A0D70084EC5C /* MapAndObjects */,
 				2F78CB921F5AF6B70055FD1A /* FunctionTimer */,
@@ -160,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F2354191F90F57600FFB659 /* BinarySearch.cpp in Sources */,
 				2F9D625C1F877FDD00194AEE /* FunctionObjects.cpp in Sources */,
 				2F78CB951F5AF6DC0055FD1A /* FunctionTimer.cpp in Sources */,
 				2FE8A3D31F4C640B0084056C /* main.cpp in Sources */,
