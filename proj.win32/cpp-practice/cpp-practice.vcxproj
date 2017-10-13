@@ -41,6 +41,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)\..\..\cpp-practice;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -76,7 +77,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\cpp-practice\BinarySearch\BinarySearch.cpp" />
+    <ClCompile Include="..\..\cpp-practice\FunctionObjects\FunctionObjects.cpp" />
+    <ClCompile Include="..\..\cpp-practice\FunctionTimer\FunctionTimer.cpp" />
     <ClCompile Include="..\..\cpp-practice\main.cpp" />
+    <ClCompile Include="..\..\cpp-practice\MapAndObjects\MapAndObjects.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\cpp-practice\BinarySearch\BinarySearch.h" />
+    <ClInclude Include="..\..\cpp-practice\FunctionObjects\FunctionObjects.hpp" />
+    <ClInclude Include="..\..\cpp-practice\FunctionTimer\FunctionTimer.h" />
+    <ClInclude Include="..\..\cpp-practice\MapAndObjects\MapAndObjects.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -7,16 +7,23 @@
 //
 
 #include <iostream>
-#include "MapAndObjects.h"
-#include "FunctionTimer.h"
-#include "FunctionObjects.hpp"
+#include "MapAndObjects/MapAndObjects.h"
+#include "FunctionTimer/FunctionTimer.h"
+#include "FunctionObjects/FunctionObjects.hpp"
+#include "BinarySearch/BinarySearch.h"
 
 int main(int argc, const char * argv[]) {
     
     //MapAndObjects::test();
     //FunctionTimer::test();
-    FunctionObjects::test();
+    //FunctionObjects::test();
+	BinarySearch::test();
     
+
+#ifdef WIN32
+	getchar();
+#endif
+
     return 0;
 }
 

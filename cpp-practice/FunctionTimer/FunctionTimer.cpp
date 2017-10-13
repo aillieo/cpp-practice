@@ -6,6 +6,10 @@
 //  Copyright © 2017年 AillieoTech. All rights reserved.
 //
 
+#ifdef WIN32
+#define __func__ __FUNCTION__ 
+#endif
+
 #include "FunctionTimer.h"
 #include <iostream>
 
