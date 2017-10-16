@@ -80,6 +80,7 @@
     <ClCompile Include="..\..\cpp-practice\BinarySearch\BinarySearch.cpp" />
     <ClCompile Include="..\..\cpp-practice\FunctionObjects\FunctionObjects.cpp" />
     <ClCompile Include="..\..\cpp-practice\FunctionTimer\FunctionTimer.cpp" />
+    <ClCompile Include="..\..\cpp-practice\LocalStaticVariable\LocalStaticVariable.cpp" />
     <ClCompile Include="..\..\cpp-practice\main.cpp" />
     <ClCompile Include="..\..\cpp-practice\MapAndObjects\MapAndObjects.cpp" />
   </ItemGroup>
@@ -87,6 +88,7 @@
     <ClInclude Include="..\..\cpp-practice\BinarySearch\BinarySearch.h" />
     <ClInclude Include="..\..\cpp-practice\FunctionObjects\FunctionObjects.hpp" />
     <ClInclude Include="..\..\cpp-practice\FunctionTimer\FunctionTimer.h" />
+    <ClInclude Include="..\..\cpp-practice\LocalStaticVariable\LocalStaticVariable.h" />
     <ClInclude Include="..\..\cpp-practice\MapAndObjects\MapAndObjects.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

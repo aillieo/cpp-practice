@@ -28,6 +28,9 @@
     <ClCompile Include="..\..\cpp-practice\BinarySearch\BinarySearch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\cpp-practice\LocalStaticVariable\LocalStaticVariable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\cpp-practice\FunctionObjects\FunctionObjects.hpp">
@@ -40,6 +43,9 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\cpp-practice\BinarySearch\BinarySearch.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp-practice\LocalStaticVariable\LocalStaticVariable.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -11,13 +11,15 @@
 #include "FunctionTimer/FunctionTimer.h"
 #include "FunctionObjects/FunctionObjects.hpp"
 #include "BinarySearch/BinarySearch.h"
+#include "LocalStaticVariable/LocalStaticVariable.h"
 
 int main(int argc, const char * argv[]) {
     
     //MapAndObjects::test();
     //FunctionTimer::test();
     //FunctionObjects::test();
-	BinarySearch::test();
+	//BinarySearch::test();
+	LocalStaticVariable::test();
     
 
 #ifdef WIN32
